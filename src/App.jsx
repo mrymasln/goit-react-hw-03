@@ -42,7 +42,16 @@ function App() {
   return (
     <>
       <div>
-        <h1 style={{ paddingLeft: "220px" }}>Phonebook</h1>
+        <h1
+          style={{
+            padding: "12px",
+            maxWidth: "500px",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          Phonebook
+        </h1>
         <ContactForm addContact={addContact} />
         <SearchBox filter={filter} onFilterChange={setFilter} />
         <ContactList contacts={filteredContacts} onDelete={handleDelete} />
