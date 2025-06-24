@@ -1,0 +1,32 @@
+.addcontact {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.contactform {
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.contactlabel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 10px;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.error {
+    color: crimson;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 4px; }
